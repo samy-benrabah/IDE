@@ -1,0 +1,194 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background-color: #4C4C4C;
+    height: 40px;
+    width: auto;
+    text-align: center;
+}
+
+.fond-ecran {
+    background-image: url(Image/fond-code.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home {
+    border-radius: 10%;
+    color: white;
+}
+
+.menu a {
+    transition: 0.5s;
+    color: white;
+}
+
+.menu a:hover {
+    font-size: 20px;
+}
+
+.sublime {
+    border-radius: 10%;
+    color: white;
+    align-self: center;
+}
+
+.brackets {
+    border-radius: 10%;
+    color: white;
+}
+
+.visual {
+    border-radius: 10%;
+    color: white;
+}
+
+.hr {
+    display: inline-block;
+    width: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, 0.26);
+    height: 22px;
+    vertical-align: bottom;
+}
+
+.sublime-main {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    color: blanchedalmond;
+    transform: translate(60px);
+    transition: 0.6s;
+}
+
+.sublime-main:hover {
+    transform: scaleX(1.5);
+}
+
+.brackets-main {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    color: blanchedalmond;
+    transform: translateX(-300px);
+    /* transform: translateY(-30px); */
+    transition: 0.6s;
+}
+
+.brackets-main:hover {
+    transform: scaleX(1.2);
+}
+
+.visual-main {
+    display: flex;
+    flex-direction: row;
+    color: blanchedalmond;
+    transition: 0.6s;
+}
+
+.visual-main:hover {
+    transform: scaleX(1.5);
+}
+
+#logo-sublime-texte {
+    height: 250px;
+    width: 200px;
+}
+
+#logo-brackets {
+    height: 250px;
+    width: 200px;
+}
+
+#logo-visual {
+    height: 250px;
+    width: 200px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+}
+
+.facebook {
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.facebook:hover {
+    transform: rotate(-60deg);
+}
+
+.git {
+    height: 50px;
+    width: 50px;
+    border: solid 2px #4C4C4C;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.git:hover {
+    transform: rotate(60deg);
+}
+
+.instagram {
+    height: 50px;
+    width: 50px;
+    border: solid 2px #4C4C4C;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.instagram:hover {
+    transform: rotate(-60deg);
+}
+
+.twitter {
+    height: 50px;
+    width: 50px;
+    border: solid 2px #4C4C4C;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.twitter:hover {
+    transform: rotate(60deg);
+}
+
+.bloc {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titre-sublime {
+    align-self: center;
+}
+
+.titre-brackets {
+    align-self: center;
+}
+
+.titre-visual {
+    align-self: center;
+}

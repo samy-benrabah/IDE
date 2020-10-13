@@ -1,0 +1,273 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(#C9D6FF, #eef2f3);
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background: linear-gradient(#2980B9, #6DD5FA);
+    height: auto;
+    width: auto;
+    padding: 0;
+    /* margin: 0; */
+    margin-top: 5%;
+}
+
+.bloc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    opacity: 0.9;
+    margin-bottom: 5%;
+}
+
+nav {
+    margin-right: 8%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home {
+    border-radius: 10%;
+    color: black;
+}
+
+.menu a {
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    font-size: 20px;
+}
+
+.sublime {
+    border-radius: 10%;
+    color: black;
+}
+
+.brackets {
+    border-radius: 10%;
+    color: black;
+}
+
+.visual {
+    border-radius: 10%;
+    color: black;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    color: black;
+}
+
+.hr {
+    display: inline-block;
+    width: 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: rgba(19, 17, 17, 0.13);
+    height: 22px;
+    vertical-align: bottom;
+}
+
+.logo-place {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    transition: 2s;
+}
+
+.logo-place:hover {
+    transform: rotate(360deg);
+}
+
+.texte-horizontale-bloc1 {
+    width: 500px;
+    height: 250px;
+    font-family: "Lato", Arial, sans-serif;
+    background-color: #4C4C4C;
+    color: white;
+    padding: 3%;
+    border-radius: 1%;
+    transition: 0.5s;
+}
+
+.texte-horizontale-bloc1:hover {
+    transform: scale(1.2);
+}
+
+.img-verticale-bloc1 {
+    background-image: url(http://brackets.io/img/hero.png);
+    background-size: cover;
+    background-position: left;
+    height: 500px;
+    width: 250px;
+    /* padding: 3%; */
+    color: white;
+    border-radius: 1%;
+    transition: 0.5s;
+}
+
+.texte-horizontale2-bloc1 {
+    /* display: flex; */
+    height: 150px;
+    width: 500px;
+    font-family: "Lato", Arial, sans-serif;
+    /* padding: 3%; */
+    background-color: #4C4C4C;
+    color: white;
+    border-radius: 1%;
+    transition: 0.5s;
+}
+
+.texte-horizontale2-bloc1:hover {
+    transform: scale(1.2);
+}
+
+.texte-horizontale-bloc2 {
+    height: 250px;
+    width: 500px;
+    font-family: "Lato", Arial, sans-serif;
+    padding: 3%;
+    background-color: #4C4C4C;
+    color: white;
+    border-radius: 1%;
+    transition: 0.5s;
+}
+
+.texte-horizontale-bloc2:hover {
+    transform: scale(1.2);
+}
+
+.img-verticale-bloc2 {
+    transform: translate(112%);
+    background-image: url(http://brackets.io/img/hero.png);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 250px;
+    color: white;
+    border-radius: 1%;
+    transition: 0.5s;
+    margin-top: 1em;
+}
+
+.texte-horizontale2-bloc2 {
+    height: 150px;
+    width: 500px;
+    font-family: "Lato", Arial, sans-serif;
+    /* padding: 3%; */
+    background-color: #4C4C4C;
+    color: white;
+    border-radius: 1%;
+    transition: 0.5s;
+}
+
+.texte-horizontale2-bloc2:hover {
+    transform: scale(1.2);
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.facebook {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(#C9D6FF, #eef2f3);
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.facebook:hover {
+    transform: rotate(-60deg);
+}
+
+.git {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(#C9D6FF, #eef2f3);
+    border: solid 2px #4C4C4C;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.git:hover {
+    transform: rotate(60deg);
+}
+
+.instagram {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(#C9D6FF, #eef2f3);
+    border: solid 2px #4C4C4C;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.instagram:hover {
+    transform: rotate(-60deg);
+}
+
+.twitter {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(#C9D6FF, #eef2f3);
+    border: solid 2px #4C4C4C;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.twitter:hover {
+    transform: rotate(60deg);
+}
+
+.titre-avantage {
+    transform: translate(80%);
+}
+
+.titre-presentation {
+    transform: translate(70%);
+}
+
+.lien {
+    height: 50px;
+    width: 80px;
+    align-self: center;
+    transition: 0.5s;
+}
+
+.lien-int:hover {
+    transform: scale(1.2);
+}
+
+.lien-int {
+    color: white;
+    height: 100px;
+    background-color: #4C4C4C;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.lien-int:hover {
+    color: #C9D6FF;
+}

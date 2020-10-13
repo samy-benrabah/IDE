@@ -1,0 +1,147 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient( #525252, #3d72b4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #4C4C4C;
+    height: 30px;
+    width: auto;
+}
+
+.bloc1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 300px;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home {
+    border-radius: 10%;
+    color: white;
+}
+
+.menu a {
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    font-size: 20px;
+}
+
+.sublime {
+    border-radius: 10%;
+    color: white;
+}
+
+.brackets {
+    border-radius: 10%;
+    color: white;
+}
+
+.visual {
+    border-radius: 10%;
+    color: white;
+}
+
+.hr {
+    display: inline-block;
+    width: 1px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: rgba(255, 255, 255, 0.26);
+    height: 22px;
+    vertical-align: bottom;
+}
+
+.titre-vs {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+.bloc2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: linear-gradient(#000000, #434343);
+}
+
+.texte-bloc2 {
+    transform: translate(-10%);
+    color: honeydew;
+    height: 150px;
+    width: 500px;
+}
+
+#photo1 {
+    height: 250px;
+    width: 500px;
+}
+
+.bloc3 {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(#000000, #434343);
+    align-items: center;
+    margin-top: 10%;
+}
+
+#photo2 {
+    height: 250px;
+    width: 500px;
+    background: url(https://miro.medium.com/max/1838/1*2prWzTWseFDZGK4_Tic98g.gif);
+}
+
+.texte-bloc3 {
+    transform: translate(10%);
+    color: honeydew;
+}
+
+.lien {
+    height: 50px;
+    width: 80px;
+    justify-self: center;
+    text-align: center;
+    transition: 0.7s;
+}
+
+.lien:hover {
+    transform: scale(1.2);
+}
+
+.lien-int {
+    color: white;
+    /* height: 10px;
+    width: 100px; */
+    background-color: #4C4C4C;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.Lien {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
